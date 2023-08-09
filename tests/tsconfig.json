@@ -2,10 +2,11 @@
 	"extends": "../tsconfig.json",
 	"compilerOptions": {
 		"jsx": "react",
-		"types": ["react-native", "jest" ,"@types/jest"],
-		"composite": true,
+		"types": ["react-native", "jest", "@types/jest"],
+//		"composite": true,
 		"noEmit": false,
+		"esModuleInterop": true,
 		"rootDir": "../"
 	},
-	"include": ["../src/**/*", "./**/*"],
+	"include": ["../src/**/*", "./**/*"]
 }
