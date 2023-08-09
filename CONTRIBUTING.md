@@ -1,12 +1,12 @@
-# Ferramenta Contributing Guidelines 
+# Contributing Guidelines 
 
 ## Introduction
 
-Thank you for considering contributing to Ferramenta! It's people like you that make Ferramenta such a great tool.
+Thank you for considering contributing to this project! It's people like you that make such a great tool.
 
 ## Code of Conduct
 
-In order to ensure that the Ferramenta community is welcoming to all, please review and abide by the [Contributor Covenenant](https://www.contributor-covenant.org/).
+In order to ensure that the project's community is welcoming to all, please review and abide by the [Contributor Covenenant](https://www.contributor-covenant.org/).
 
 ## Commit Messages Policy
 
@@ -28,17 +28,3 @@ Basically, commit messages should follow this pattern:
 **More info:**
 
 https://www.conventionalcommits.org/en/v1.0.0/
-
-## Docs Generation
-
-This repo is using [typedoc](https://typedoc.org/) to generate documentation.
-
-To generate docs, run:
-
-```shell
-npm run docs:build
-```
-
-Docs will be generated in `docs` folder. This folder is ignored by git and is not published to npm.
-
-Automatic build system will generate docs on each push to `main` branch and publish them to [ferramenta.xorde.io](https://ferramenta.xorde.io).
