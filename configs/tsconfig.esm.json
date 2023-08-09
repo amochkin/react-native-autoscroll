@@ -2,6 +2,8 @@
 	"extends": "../tsconfig",
 	"compilerOptions": {
 		"module": "ESNext",
+		"types": [],
+		"noEmit": false,
 		"outDir": "../dist/esm"
 	},
 	"exclude": ["../src/bin/**/*"]

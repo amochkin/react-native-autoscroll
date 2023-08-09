@@ -12,7 +12,7 @@
 	"homepage": "https://github.com/amochkin/react-native-autoscrolla",
 	"scripts": {
 		"build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types",
-		"build:cjs": "tsc -p configs/tsconfig.cjs.json && chmod -R +x dist/cjs/bin/*.js",
+		"build:cjs": "tsc -p configs/tsconfig.cjs.json && (chmod -R +x dist/cjs/bin/*.js || true)",
 		"build:esm": "tsc -p configs/tsconfig.esm.json",
 		"build:types": "tsc -p configs/tsconfig.types.json",
 		"clean": "rimraf dist docs coverage",
@@ -55,6 +55,12 @@
 	},
 	"eslintConfig": {
 		"parser": "@typescript-eslint/parser",
+		"exclude": [
+			"node_modules",
+			"build",
+			"dist",
+			"docs"
+		],
 		"plugins": [
 			"@typescript-eslint",
 			"prettier"

@@ -2,6 +2,8 @@
 	"extends": "../tsconfig",
 	"compilerOptions": {
 		"module": "commonjs",
+		"noEmit": false,
+		"types": [],
 		"outDir": "../dist/cjs"
 	}
 }

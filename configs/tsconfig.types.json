@@ -3,6 +3,8 @@
 	"compilerOptions": {
 		"declaration": true,
 		"emitDeclarationOnly": true,
+		"noEmit": false,
+		"types": [],
 		"outDir": "../dist/types"
 	},
 	"exclude": ["../src/bin/**/*"]
