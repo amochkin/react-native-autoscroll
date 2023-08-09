@@ -55,12 +55,6 @@
 	},
 	"eslintConfig": {
 		"parser": "@typescript-eslint/parser",
-		"exclude": [
-			"node_modules",
-			"build",
-			"dist",
-			"docs"
-		],
 		"plugins": [
 			"@typescript-eslint",
 			"prettier"
@@ -86,12 +80,12 @@
 		"*.{js,jsx,ts,tsx}": "npm run lint:fix"
 	},
 	"prettier": {
+		"arrowParens": "avoid",
+		"bracketSameLine": true,
+		"bracketSpacing": true,
 		"singleQuote": true,
 		"trailingComma": "all",
-		"tabWidth": 2,
-		"useTabs": true,
-		"printWidth": 120,
-		"bracketSpacing": true
+		"printWidth": 120
 	},
 	"commitlint": {
 		"extends": [
