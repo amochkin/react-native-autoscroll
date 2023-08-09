@@ -1,5 +1,5 @@
 {
-	"name": "react-native-autoscroll",
+	"name": "@amochkin/react-native-autoscroll",
 	"version": "1.0.0",
 	"description": "AutoScroll component for React Native ",
 	"repository": {
