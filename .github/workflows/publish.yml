@@ -1,4 +1,4 @@
-name: Publish, Release and Docs
+name: Publish and Release
 
 on:
   workflow_dispatch:
@@ -61,4 +61,3 @@ jobs:
           draft: ${{ github.event.inputs.is_draft }}
           prerelease: ${{ github.event.inputs.is_prerelease }}
           tag_name: ${{ steps.read_version.outputs.value }}
-
