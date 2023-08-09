@@ -9,7 +9,7 @@
 	"bugs": {
 		"url": "https://github.com/amochkin/react-native-autoscroll/issues"
 	},
-	"homepage": "https://github.com/amochkin/react-native-autoscrolla",
+	"homepage": "https://github.com/amochkin/react-native-autoscroll",
 	"scripts": {
 		"build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types",
 		"build:cjs": "tsc -p configs/tsconfig.cjs.json && (chmod -R +x dist/cjs/bin/*.js || true)",
