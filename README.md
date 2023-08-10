@@ -7,13 +7,13 @@ AutoScroll component for React Native
 **Using npm:**
 
 ```shell
-npm install react-native-autoscroll --save
+npm install @xorders/react-native-autoscroll --save
 ```
 
 **Using yarn:**
 
 ```shell
-yarn add react-native-autoscroll
+yarn add @xorders/react-native-autoscroll
 ```
 
 ## Usage
